@@ -1,0 +1,25 @@
+This is the program to simulate the dynamics of kinetochore microtubule plus-ends 
+and poleward flux using gillespie algorithm. 
+Algorithm: Gillespie, Daniel T. "A general method for numerically simulating the 
+           stochastic time evolution of coupled chemical reactions." Journal of 
+           computational physics 22.4 (1976): 403-434
+System and Parameters: Fernandez, Nicolas, et al. "A model for the regulatory 
+           network controlling the dynamics of kinetochore microtubule plus-ends 
+           and poleward flux in metaphase." Proceedings of the National Academy of 
+           Sciences 106.19 (2009): 7846-7851.
+
+
+1. run program:
+1). make
+2). make folder of data	
+3). run code
+control case:	./mc 0 
+knockdown 67A:	./mc 1
+knockdown 59C:	./mc 2
+knockdown Mast:	./mc 3
+knockdown EB1:	./mc 4
+knockdown Msps:	./mc 5
+
+Plot Data: python data_plot.py
+
+2. Trajectories will be saved in folder "data"

@@ -11,7 +11,7 @@ System and Parameters: Fernandez, Nicolas, et al. "A model for the regulatory
 
 1. run program:
 1). make
-2). make folder of data	
+2). make folder of “data	
 3). run code
 control case:	./mc 0 
 knockdown 67A:	./mc 1
